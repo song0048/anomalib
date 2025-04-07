@@ -38,7 +38,7 @@ Example:
 
 from .base import AnomalibDataset, AnomalibDepthDataset, AnomalibVideoDataset
 from .depth import Folder3DDataset, MVTec3DDataset
-from .image import BTechDataset, DatumaroDataset, FolderDataset, KolektorDataset, MVTecADDataset, VisaDataset
+from .image import BTechDataset, DatumaroDataset, FolderDataset, KolektorDataset, MVTecADDataset, VisaDataset, CustomDataset
 from .video import AvenueDataset, ShanghaiTechDataset, UCSDpedDataset
 
 __all__ = [
@@ -60,4 +60,5 @@ __all__ = [
     "AvenueDataset",
     "ShanghaiTechDataset",
     "UCSDpedDataset",
+    "CustomDataset",
 ]

@@ -28,6 +28,7 @@ from .folder import FolderDataset
 from .kolektor import KolektorDataset
 from .mvtecad import MVTecADDataset, MVTecDataset
 from .visa import VisaDataset
+from .custom import CustomDataset
 
 __all__ = [
     "BTechDataset",
@@ -37,4 +38,5 @@ __all__ = [
     "MVTecDataset",
     "MVTecADDataset",
     "VisaDataset",
+    "CustomDataset"
 ]

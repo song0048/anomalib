@@ -31,6 +31,7 @@ from .folder import Folder
 from .kolektor import Kolektor
 from .mvtecad import MVTec, MVTecAD
 from .visa import Visa
+from .custom import Custom
 
 
 class ImageDataFormat(str, Enum):
@@ -56,6 +57,7 @@ class ImageDataFormat(str, Enum):
     MVTEC_AD = "mvtecad"
     MVTEC_3D = "mvtec_3d"
     VISA = "visa"
+    CUSTOM = "custom"
 
 
 __all__ = [
@@ -66,4 +68,5 @@ __all__ = [
     "MVTecAD",
     "MVTec",  # Include both for backward compatibility
     "Visa",
+    "Custom"
 ]

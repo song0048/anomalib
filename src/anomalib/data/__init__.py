@@ -49,7 +49,7 @@ from .dataclasses import (
 # Datamodules
 from .datamodules.base import AnomalibDataModule
 from .datamodules.depth import DepthDataFormat, Folder3D, MVTec3D
-from .datamodules.image import BTech, Datumaro, Folder, ImageDataFormat, Kolektor, MVTec, MVTecAD, Visa
+from .datamodules.image import BTech, Datumaro, Folder, ImageDataFormat, Kolektor, MVTec, MVTecAD, Visa, Custom
 from .datamodules.video import Avenue, ShanghaiTech, UCSDped, VideoDataFormat
 
 # Datasets
@@ -62,6 +62,7 @@ from .datasets.image import (
     KolektorDataset,
     MVTecADDataset,
     VisaDataset,
+    CustomDataset,
 )
 from .datasets.video import AvenueDataset, ShanghaiTechDataset, UCSDpedDataset
 from .predict import PredictDataset
@@ -165,6 +166,7 @@ __all__ = [
     "MVTecADDataset",
     "Visa",
     "VisaDataset",
+    "CustomDataset",
     # Video
     "Avenue",
     "AvenueDataset",
@@ -176,4 +178,18 @@ __all__ = [
     # Predict
     "PredictDataset",
     "get_datamodule",
+    "BTech",
+    "Datumaro",
+    "Folder",
+    "Folder3D",
+    "Kolektor",
+    "MVTec",
+    "MVTec3D",
+    "Avenue",
+    "UCSDped",
+    "ShanghaiTech",
+    "Visa",
+    "Custom",
+    "LabelName",
+    "PredictDataset",
 ]
